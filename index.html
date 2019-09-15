@@ -73,7 +73,7 @@
                   ><input type="checkbox" name="" value="three" />Third
                   checkbox</label
                 >
-              </form>
+              </form onsubmit="return amIAllergic()">
               <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <form>
                   <div class="form-row">
@@ -82,6 +82,7 @@
                         type="upc"
                         class="form-control form-control-lg"
                         placeholder="Enter the UPC..."
+                        id="UserUpc"
                       />
                     </div>
                     <div class="col-12 col-md-3">
